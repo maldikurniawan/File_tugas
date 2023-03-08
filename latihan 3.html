@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Form</title>
+</head>
+<body bgcolor="azure">
+    <form action="">
+        <label>Nama:</label>&nbsp;
+        <input type="text" name="nama" placeholder="Masukkan Nama Anda"><br>
+        <label>Password:</label>&nbsp;
+        <input type="password" name="password"><br>
+        <label>Gender:</label>&nbsp;
+        <input type="radio" name="gender" value="L" checked>&nbsp;Laki-Laki
+        <input type="radio" name="gender" value="P">&nbsp;Perempuan<br>
+        <label>Hobi:</label>&nbsp;
+        <input type="checkbox" name="hobi" value="olahraga" checked>&nbsp;Olahraga<br>
+        <input type="checkbox" name="hobi" value="bermain_piano">&nbsp;Bermain Piano<br>
+        <input type="checkbox" name="hobi" value="membaca_komik">&nbsp;Membaca Komik<br>
+        <input type="checkbox" name="hobi" value="memasak">&nbsp;Memasak<br>
+        <label>Pendidikan:</label>&nbsp;
+        <select name="endidikan" id="">
+            <option value="">Pilih Pendidikan</option>
+            <option value="SMA">SMA</option>
+            <option value="D3">D3</option>
+            <option value="S1">S1</option>
+            <option value="S2" selected>S2</option>
+        </select><br>
+        <label>Alamat Lengkap:</label>&nbsp;
+        <textarea name="alamat" id="" cols="100" rows="5">
+        </textarea>
+        <hr>
+        <input type="submit" name="simpan" value="Simpan">&nbsp;
+        <input type="reset" name="reset" value="Reset">&#128511;
+    </form>
+</body>
+</html>
